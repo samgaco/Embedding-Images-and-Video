@@ -9,12 +9,19 @@
                 float: right ;
                 background-color :silver;}
 
+            .img{
+
+                width: 130%
+            }
+
             .sidebar{
-                display:flex; 
+                display:flex, inline-block; 
                 flex-direction: column;
                 font-size : 28px;
                 background-color: rgb(194, 194, 206);
-                width: 15%;}
+                width: 15%;
+                
+                }
         </style>
     </head>
     <body>
@@ -28,13 +35,30 @@
                 </nav>
             </h2>
         </div>
+
+
         <div>
             <nav class ='sidebar'>
-                <a href='#'>link3</a>
-                <a href='#'>link4</a>
-                <a href='#'>link5</a>
-            </nav>
+
+                <a href='#'>
+                <img class= "img" src='maxresdefault.jpg' alt='thumbnail'/>
+                </a>
+
+                <a href='#'>
+                <img class= "img" src='maxresdefault.jpg' alt='thumbnail'/>
+                </a>                
+                
+                <a href='#'>
+                <img class= "img" src='maxresdefault.jpg' alt='thumbnail'/>
+                </a>          
+                    
+                    </nav>
+      
+            <iframe width="420" height="315" 
+                src="https://www.youtube.com/embed/E8jHwinJRyQ">
+            </iframe>
         </div>
+
     </body>
 
 </html>
